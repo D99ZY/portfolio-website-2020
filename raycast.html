@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ray Casting</title>
+        <link rel="stylesheet" href="RayCasting/styles.css"/>
+    </head>
+    <body>
+
+        <div id="Navbar">
+            <span class="return">
+                <a href="index.html">
+                <img class="navImage" src="images/left-arrow.png" alt="" />
+                </a>
+            </span>
+            <span class="pageTitle">RayCasting Game</span>
+        </div>
+
+        <div id="sketch-holder">
+            <!-- Our sketch will go here! -->
+        </div>
+
+        <div id="controls">
+            <h3><pre>Controls</pre></h3>
+            <h4><pre>Move: WASD   Shoot: Spacebar   Pause / Settings: ESC</pre></h4>
+        </div>
+
+        <div class="footer">
+            <button class="unstyled-button" onclick="chooseSize('1')">Tiny</button>
+            <button class="unstyled-button" onclick="chooseSize('1.5')">Small</button>
+            <button class="unstyled-button" onclick="chooseSize('2')">Medium</button>
+            <button class="unstyled-button" onclick="chooseSize('2.5')">Large</button>
+            <button class="unstyled-button" onclick="chooseSize('3.5')">Huge</button>
+        </div>
+
+        <script src="RayCasting/p5.js"></script>
+        <script src="RayCasting/raycast.js"></script>
+        
+    </body>
+</html>

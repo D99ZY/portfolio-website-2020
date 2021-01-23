@@ -1,0 +1,29 @@
+
+#back-button {
+    width: 1.2em;
+    height: 2em;
+}
+
+#page-title {
+    font-size: 2em;
+}
+
+.container {
+    margin-top: 5em;
+  }
+
+.main-jumbotron {
+    background-color: rgb(240, 240, 240);
+}
+
+#sketch-holder {
+    display: block;
+    position: relative;
+    margin: 0 auto ;
+    margin-top: 2.5em;
+    margin-bottom: 4em;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(140, 140, 140);
+    border-radius: 1em;  
+}

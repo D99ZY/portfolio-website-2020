@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<title>p5 walkthrough</title> 
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="visualizer/visualizer_style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-between">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+                    <a class="navbar-brand" href="index.html">
+                        <img id="back-button" src="images/left-arrow.png" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <h1 id="page-title" class="navbar-brand mx-auto d-block text-center">Sorting Algorithm Visualizer</h1>
+                <div class="navbar-collapse collapse dual-nav w-50 order-2"></div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div id="jumbo-canvas" class="jumbotron main-jumbotron">
+                <h1>Bubble Sort</h1>
+
+                <div id="sketch-holder">
+                    <!-- Canvas -->
+                </div>
+
+                <p>By giving this div an id of jumbo-canvas and and placing <code>canvas.parent('jumbo-canvas')</code>  in our setup function, we can draw inside this Bootstrap jumbotron.</p>
+                <p class="lead">
+                    <a class="btn btn-info btn-lg" href="#" role="button">Click this button for some truth</a>
+                </p>
+            </div>
+        </div>
+
+        <script src="visualizer/p5.js"></script>
+        <script src="visualizer/sorter.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
