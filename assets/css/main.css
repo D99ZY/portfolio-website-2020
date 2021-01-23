@@ -2381,6 +2381,11 @@ input, select, textarea {
 		position: relative;
 	}
 
+		.image.border {
+			border: solid rgb(150, 150, 150);
+			border-width: 0px 1px;
+		}
+
 		.image img {
 			border-radius: 8px;
 			display: block;
@@ -2406,11 +2411,31 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.single {
+			display: inline-block;
+			margin: 0 0 2em 0;
+			width: 40%;
+		}
+
+			.image.single.border {
+				border: solid rgb(150, 150, 150);
+				border-width: 0px 1px;
+			}
+
+				.image.single.border img {
+					width: 100%;
+				}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
+
+			.image.fit.border {
+				border: solid rgb(150, 150, 150);
+				border-width: 0px 1px;
+			}
 
 			.image.fit img {
 				width: 100%;
